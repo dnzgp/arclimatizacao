@@ -573,7 +573,7 @@
             <div class="info-icon"><i data-lucide="mail" size="24"></i></div>
             <div>
               <strong>E-mail</strong>
-              <p>contato@arclimatizacao.com.br</p>
+              <p>contato.arclimatizacao@gmail.com</p>
             </div>
           </div>
           
@@ -611,7 +611,7 @@
         
         <div class="contact-form">
           <!-- FormSubmit Action Configured -->
-          <form id="contactForm" action="https://formsubmit.co/contato@arclimatizacao.com.br" method="POST">
+          <form id="contactForm" action="https://formsubmit.co/contato.arclimatizacao@gmail.com" method="POST">
             <!-- Hidden Fields for FormSubmit configuration -->
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
@@ -762,7 +762,7 @@
 
       try {
         // Attempt sending via AJAX to FormSubmit
-        const response = await fetch("https://formsubmit.co/ajax/contato@arclimatizacao.com.br", {
+        const response = await fetch("https://formsubmit.co/ajax/contato.arclimatizacao@gmail.com", {
           method: "POST",
           body: formData
         });
@@ -789,7 +789,7 @@
         const body = `Olá, gostaria de um orçamento.\n\nNome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\nServiço: ${servico}\n\nMensagem:\n${mensagem}`;
         
         // Encode for URL
-        const mailtoLink = `mailto:contato@arclimatizacao.com.br?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:contato.arclimatizacao@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
         if (confirm('O envio automático não pôde ser concluído. Deseja abrir seu aplicativo de e-mail para enviar os dados?')) {
           window.location.href = mailtoLink;
